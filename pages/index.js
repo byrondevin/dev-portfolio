@@ -27,8 +27,8 @@ export default function Home() {
             {/* Profile image */}
             <Image
               id="profileImg"
-              src="https://lostatseamarketing.com/wp-content/uploads/2021/08/Byron-web-development-1.jpg"
-              alt="can-lemongrass"
+              src="/byron-profile-pic.jpeg"
+              alt="byron"
               className="my-5 shadow"
             />
 
