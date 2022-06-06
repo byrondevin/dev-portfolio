@@ -45,17 +45,17 @@ export default function Home() {
 
             <div className="row align-items-center">
               {/* Button: contact page link */}
-              <div className='row m-3'>
+              
                 <div className='col text-center '>
                   <Link href='/contact'>
                     <button type="button" className="btn btn-light shadow">Contact</button>
                   </Link>
                 </div>
-              </div>
+     
             </div> 
             <div className="row align-items-center">
               {/* Button: CV on canva. can download from linked page */}
-              <div className='row'>
+              
 
                 <div className='col text-center '>
 
@@ -65,7 +65,6 @@ export default function Home() {
                   
                   </Link>
                 </div>
-              </div>  
             </div> 
           </div>
 
