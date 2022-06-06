@@ -21,43 +21,52 @@ export default function Home() {
           {/*---------- ABOUT BYRON & CONTACT COL ----------*/}
           <div className="col" id="aboutCol">
              
-            {/* Job Title */}
-            <h2 className='m-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
+            <div className="row align-items-center">
+              {/* Job Title */}
+              <h2 className='m-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
+            </div> 
 
-            {/* Profile image */}
-            <Image
-              id="profileImg"
-              src="/byron-profile-pic.jpeg"
-              alt="byron"
-              className="profileImg my-5 shadow"
-              width={250}
-              height={250}
-            />
+            <div className="row align-items-center text-center">
+              {/* Profile image */}
+              <Image
+                id="profileImg"
+                src="/byron-profile-pic.jpeg"
+                alt="byron"
+                className="profileImg my-5 shadow"
+                width={250}
+                height={250}
+              />
+            </div> 
 
-            {/* Name */}
-            <p className='h4 m-5 text-center'>Byron Devin</p>
+            <div className="row align-items-center">
+              {/* Name */}
+              <p className='h4 m-5 text-center'>Byron Devin</p>
+            </div> 
 
-            {/* Button: contact page link */}
-            <div className='row m-3'>
-              <div className='col text-center '>
-                <Link href='/contact'>
-                  <button type="button" className="btn btn-light shadow">Contact</button>
-                </Link>
+            <div className="row align-items-center">
+              {/* Button: contact page link */}
+              <div className='row m-3'>
+                <div className='col text-center '>
+                  <Link href='/contact'>
+                    <button type="button" className="btn btn-light shadow">Contact</button>
+                  </Link>
+                </div>
               </div>
-            </div>
+            </div> 
+            <div className="row align-items-center">
+              {/* Button: CV on canva. can download from linked page */}
+              <div className='row'>
 
-            {/* Button: CV on canva. can download from linked page */}
-            <div className='row'>
+                <div className='col text-center '>
 
-              <div className='col text-center '>
-
-                <Link href='https://www.canva.com/design/DAE_05CSqs4/iDgDO5Fzh5BP6nlpExXjbQ/view?utm_content=DAE_05CSqs4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>
+                  <Link href='https://www.canva.com/design/DAE_05CSqs4/iDgDO5Fzh5BP6nlpExXjbQ/view?utm_content=DAE_05CSqs4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'>
+                    
+                    <button type="button" className="btn btn-light shadow">Download CV</button>
                   
-                  <button type="button" className="btn btn-light shadow">Download CV</button>
-                
-                </Link>
-              </div>
-            </div>  
+                  </Link>
+                </div>
+              </div>  
+            </div> 
           </div>
 
 
