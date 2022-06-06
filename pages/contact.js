@@ -19,7 +19,7 @@ export default function Contact() {
             <div className="row pt-5">
               <div className="col text-center text-light">
                 <h2 id="experienceH2" className="h1">Say Hello</h2>
-                <p id="conSub">I'd love to hear from you...</p>
+                <p id="conSub">I&apos;d love to hear from you...</p>
               </div>
             </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
                             type="radio"
                             name="options"
                             id="option1"
-                            autocomplete="off"
+                            autoComplete="off"
                             checked
                             />
                             Web Development
@@ -58,7 +58,7 @@ export default function Contact() {
                             type="radio"
                             name="options"
                             id="option2"
-                            autocomplete="off"
+                            autoComplete="off"
                             />
                             Marketing
                         </label>
@@ -67,7 +67,7 @@ export default function Contact() {
                             type="radio"
                             name="options"
                             id="option3"
-                            autocomplete="off"
+                            autoComplete="off"
                             />
                             Custom Quote
                         </label>
