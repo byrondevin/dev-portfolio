@@ -26,7 +26,7 @@ export default function Home() {
               <h2 className='my-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
             </div> 
 
-            <div className="row align-items-center text-center" display= "block">
+            <div className="row align-items-center justify-content-center text-center" display= "block">
               {/* Profile image */}
               <Image
                 id="profileImg"
