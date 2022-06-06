@@ -32,7 +32,7 @@ export default function Home() {
                 id="profileImg"
                 src="/byron-profile-pic.jpeg"
                 alt="byron"
-                className="profileImg my-5 shadow"
+                className="profileImg my-5 shadow text-center"
                 width={250}
                 height={250}
                 display= "block"
