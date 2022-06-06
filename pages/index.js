@@ -26,7 +26,7 @@ export default function Home() {
               <h2 className='m-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
             </div> 
 
-            <div className="row align-items-center text-center">
+            <div className="row align-items-center text-center" display= "block">
               {/* Profile image */}
               <Image
                 id="profileImg"
@@ -35,7 +35,7 @@ export default function Home() {
                 className="profileImg my-5 shadow"
                 width={250}
                 height={250}
-                display= "block"
+                
               />
             </div> 
 
