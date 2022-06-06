@@ -35,7 +35,7 @@ export default function Home() {
                 className="profileImg my-5 shadow"
                 width={250}
                 height={250}
-                
+                display= "block"
               />
             </div> 
 
