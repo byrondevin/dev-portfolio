@@ -30,6 +30,8 @@ export default function Home() {
               src="/byron-profile-pic.jpeg"
               alt="byron"
               className="profileImg my-5 shadow"
+              width={250}
+              height={250}
             />
 
             {/* Name */}
@@ -130,18 +132,7 @@ export default function Home() {
             transform: scale(1.1);
           }
 
-          .profileImg{
-            width:250px;
-            height:250px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 50%;
-            transition: 0.5s;
-          }
-          .profileImg:hover{
-            transform: scale(1.1);
-          }
+        
           
           #homeHeadSkillDev{
             background-image: url('/web-dev-4.jpg');
