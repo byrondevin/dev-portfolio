@@ -29,7 +29,7 @@ export default function Home() {
               id="profileImg"
               src="/byron-profile-pic.jpeg"
               alt="byron"
-              className="my-5 shadow"
+              className="profileImg my-5 shadow"
             />
 
             {/* Name */}
@@ -127,6 +127,19 @@ export default function Home() {
             transition: 0.5s;
           }
           #profileImg:hover{
+            transform: scale(1.1);
+          }
+
+          .profileImg{
+            width:250px;
+            height:250px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+            transition: 0.5s;
+          }
+          .profileImg:hover{
             transform: scale(1.1);
           }
           
