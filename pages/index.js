@@ -36,6 +36,7 @@ export default function Home() {
                 width={250}
                 height={250}
                 display= "block"
+                
               />
             </div> 
 
@@ -129,6 +130,7 @@ export default function Home() {
             display: block;
           }
           #profileImg{
+            object-position: 50% 50%;
             width:250px;
             height:250px;
             display: block;
