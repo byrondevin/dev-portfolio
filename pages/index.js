@@ -118,6 +118,7 @@ export default function Home() {
             display: block;
           }
           #profileImg{
+            width:250px
             display: block;
             margin-left: auto;
             margin-right: auto;
