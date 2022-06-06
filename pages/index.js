@@ -25,7 +25,7 @@ export default function Home() {
             <h2 className='m-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
 
             {/* Profile image */}
-            <img
+            <Image
               id="profileImg"
               src="https://lostatseamarketing.com/wp-content/uploads/2021/08/Byron-web-development-1.jpg"
               alt="can-lemongrass"
