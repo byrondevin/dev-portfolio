@@ -44,7 +44,7 @@ export default function Home() {
               <p className='h4 m-5 text-center'>Byron Devin</p>
             </div> 
 
-            <div className="row align-items-center">
+            <div className="row align-items-center m-3">
               {/* Button: contact page link */}
               
                 <div className='col text-center '>
@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
      
             </div> 
-            <div className="row align-items-center">
+            <div className="row align-items-center m-3">
               {/* Button: CV on canva. can download from linked page */}
               
 
