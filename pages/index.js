@@ -23,7 +23,7 @@ export default function Home() {
              
             <div className="row align-items-center">
               {/* Job Title */}
-              <h2 className='m-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
+              <h2 className='my-5 text-center'>Web Developer & <br/> SEO Specialist</h2>
             </div> 
 
             <div className="row align-items-center text-center" display= "block">
@@ -41,7 +41,7 @@ export default function Home() {
 
             <div className="row align-items-center">
               {/* Name */}
-              <p className='h4 m-5 text-center'>Byron Devin</p>
+              <p className='h4 my-5 text-center'>Byron Devin</p>
             </div> 
 
             <div className="row align-items-center m-3">
