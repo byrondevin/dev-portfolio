@@ -138,6 +138,7 @@ export default function Home() {
             margin-right: auto;
             border-radius: 50%;
             transition: 0.5s;
+            border-radius: 20px
           }
           #profileImg:hover{
             transform: scale(1.1);
