@@ -10,6 +10,16 @@ export default function Home() {
       <Head>
         <title>About Byron</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossOrigin="anonymous"></link>
+          {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-B5LK04QXWQ"/>
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                window.dataLayer = window.dataLayer || []
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-B5LK04QXWQ');`
+                }
+            </Script>
       </Head>
 
       <div className="containerFluid homeHeader text-light">
