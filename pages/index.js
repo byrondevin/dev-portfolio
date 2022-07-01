@@ -14,7 +14,7 @@ export default function Home() {
           <Script async src="https://www.googletagmanager.com/gtag/js?id=G-B5LK04QXWQ"/>
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
-                window.dataLayer = window.dataLayer || []
+                window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-B5LK04QXWQ');`
@@ -33,8 +33,8 @@ export default function Home() {
              
             <div className="row align-items-center">
               {/* Job Title */}
-              <h2 className='mt-5 text-center'>Web Developer</h2>
-              <p className="h3 text-center"> and SEO Specialist</p>
+              <h2 className='mt-5 text-center'>Web Developer and</h2>
+              <p className="h3 text-center">  SEO Specialist</p>
             </div> 
 
             <div className="row align-items-center justify-content-center text-center" display= "block">

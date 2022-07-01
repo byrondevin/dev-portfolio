@@ -14,7 +14,7 @@ export default function Portfolio() {
             <Script async src="https://www.googletagmanager.com/gtag/js?id=G-B5LK04QXWQ"/>
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
-                window.dataLayer = window.dataLayer || []
+                window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-B5LK04QXWQ');`
