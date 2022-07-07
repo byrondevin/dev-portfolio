@@ -15,13 +15,13 @@ export default function Home() {
 
       </Head>
             {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-B5LK04QXWQ"/>
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DEK85R697G"/>
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-B5LK04QXWQ');`
+                gtag('config', 'G-DEK85R697G');`
                 }
             </Script>
        
